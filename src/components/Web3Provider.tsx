@@ -7,7 +7,6 @@ const client = createClient(
 	getDefaultClient({
 		appName: APP_NAME,
 		autoConnect: true,
-		infuraId: process.env.NEXT_PUBLIC_INFURA_ID,
 	})
 )
 
